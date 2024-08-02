@@ -19,6 +19,9 @@ header {
       .nav-list {
         display: flex;
 
+        @include responsive() {
+          display: none;
+        }
 
         li {
           margin-left: 2.4rem;
@@ -67,6 +70,10 @@ header {
     .nav-social {
       display: flex;
 
+      @include responsive() {
+        display: none;
+      }
+
       svg {
         cursor: pointer;
         margin-left: 1.6rem;
@@ -95,6 +102,9 @@ header {
       border-bottom: 0.2rem solid $white;
       cursor: pointer;
 
+      @include responsive() {
+        display: block;
+      }
     }
   }
 }

@@ -3,85 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spider-man: Miles Morales | PS5</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="./assets/svg/logo-spiderman.svg">
+    <title>Spider Man - Miles Morales</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./assets/svg/logo-spiderman.svg" />
+
     <script src="./js/svg-inject.min.js"></script>
   </head>
+
   <body>
-    <!--========= HEADER ========-->
+    <!-- ========== LOADING ========== -->
+    <section class="bg-loader">
+      <img
+        src="./assets/svg/logo-spiderman.svg"
+        alt=""
+        onload="SVGInject(this)"
+        width="144"
+        height="144"
+      />
+    </section>
+
+    <!-- ========== HEADER ========== -->
     <header>
       <nav class="navbar">
         <div class="nav-menu">
-          <div class="logo">
+          <div class="nav-logo">
             <img
-              src="./assets/svg/logo-spiderman.svg"
-              alt="logo spiderman"
+              src="./assets/svg/logo-spiderman.svg
+          "
+              alt=""
               onload="SVGInject(this)"
               width="96"
               height="96"
             />
           </div>
+
           <ul class="nav-list">
-            <li><a href="#" class="nav-link">Home</a></li>
-            <li><a href="#" class="nav-link">Story</a></li>
-            <li><a href="#" class="nav-link">Wallpapers</a></li>
-            <li><a href="#" class="nav-link">#BeYourself</a></li>
+            <li><a href="./" class="nav-link">Social</a></li>
+            <li><a href="./" class="nav-link">Story</a></li>
+            <li><a href="./" class="nav-link">Wallpapers</a></li>
+            <li><a href="./" class="nav-link" style="color: red;">#Beyourself</a></li>
           </ul>
         </div>
+
         <div class="nav-social">
-            <img
-              src="./assets/svg/icon-facebook.svg"
-              alt="logo facebook"
-              onload="SVGInject(this)"
-            />
-            <img
-              src="./assets/svg/icon-instagram.svg"
-              alt="logo instagram"
-              onload="SVGInject(this)"
-            />
-            <img
-              src="./assets/svg/icon-youtube.svg"
-              alt="logo youtube"
-              onload="SVGInject(this)"
-            />
-            <img
-              src="./assets/svg/icon-twitter.svg"
-              alt="logo twitter"
-              onload="SVGInject(this)"
-            />
-          </div>
+          <img
+            src="./assets/svg/icon-facebook.svg"
+            alt=""
+            onload="SVGInject(this)"
+          />
+          <img
+            src="./assets/svg/icon-instagram.svg"
+            alt=""
+            onload="SVGInject(this)"
+          />
+          <img
+            src="./assets/svg/icon-youtube.svg"
+            alt=""
+            onload="SVGInject(this)"
+          />
+          <img
+            src="./assets/svg/icon-twitter.svg"
+            alt=""
+            onload="SVGInject(this)"
+          />
+        </div>
+
+        <div class="bx mr-2"></div>
       </nav>
     </header>
 
-    <!--========= CONTAINER ========-->
-    <section class="container">
-      <div class="container-item-1">
-        <p>
-          <img src="./assets/img/spiderman-text.png" onload="SVGInject(this)" />
-        </p>
-        <p class="item-2 my-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Iaculis velit
-          magna vitae mauris orci fames posuere nibh. Sit tellus amet facilisi
-          sit odio pulvinar scelerisque quam et. Ultrices facilisis nunc massa
-          diam, quis mi imperdiet.
-        </p>
+    <!-- ========== BG VIDEO ========== -->
 
-        <p>
-            <a href="#" class="btn">Pre-order now</a>
-            <a href="#" class="btn-secondary">Watch the teaser</a>
-        </p>
-
-        <p>
-            <img src="./assets/svg/ps.svg" onload="SVGInject(this)" />
-            <img src="./assets/svg/marvel.svg" onload="SVGInject(this)" />
-        </p>
-
-        <div class=""></div>
-      </div>
-      <div class="container-item-2">
-        <img src="./assets/img/spider-man.png" onload="SVGInject(this)" />
-      </div>
+    <section class="bg-video">
+      <video class="video" preload="none" autoplay muted loop>
+        <source src="./assets/video/spiderman2.mp4" type="video/mp4" />
+      </video>
     </section>
+
+    <!-- ========== CONTAINER ========== -->
+
+    <main class="container">
+      <div class="container-item-1">
+        <div class="item-1 px-1">
+          <img src="./assets/img/spiderman-text.png" alt="" />
+        </div>
+
+        <p class="item-2 my-2">
+          Após os eventos de Marvel's Spider-Man Remasterizado, o adolescente
+          Miles Morales está se adaptando à sua nova casa enquanto segue os
+          passos do seu mentor, Peter Parker, para se tornar um novo Spider-Man.
+          Mas uma violenta disputa de forças ameaça destruir seu novo lar e faz
+          o aspirante a herói perceber que com grandes poderes também vêm
+          grandes responsabilidades. Para salvar a Nova York da Marvel, Miles
+          precisa reconhecer e assumir o título de Spider-Man.
+        </p>
+
+        <div class="item-3">
+          <a href="https://store.playstation.com/pt-br/product/UP9000-PPSA01411_00-MARVELSSMMORALES" target="__blank" class="btn">Pre-order now</a>
+          <a href="https://youtu.be/oZXyrAfuHOo" target="__blank" class="ml-2 btn-secondary">Watch the teaser</a>
+        </div>
+
+        <div class="item-4 flex align-item-center mt-1">
+          <img
+            src="./assets/svg/ps.svg"
+            alt=""
+            class="w-auto"
+            onload="SVGInject(this)"
+          />
+          <img
+            src="./assets/svg/marvel.svg"
+            alt=""
+            class="ml-2 auto"
+            onload="SVGInject(this)"
+          />
+        </div>
+      </div>
+
+      <div class="container-item-2 item-5">
+        <div class="js-tilt">
+          <img src="./assets/img/spider-man.png" class="spiderman" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <!-- ========== JAVASCRIPT ========== -->
+
+    <script src="./js/script.js"></script>
+    <!-- Inclui a biblioteca jQuery Slim -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Inclui a biblioteca Tilt.js para efeitos de parallax tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <!-- Inclui a biblioteca GSAP para animações -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Aplica o efeito tilt aos elementos com a classe 'js-tilt' -->
+    <script>
+      $(".js-tilt").tilt({
+        perspective: 2000,
+        scale: 1.05,
+      });
+    </script>
   </body>
 </html>

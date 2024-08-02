@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  background-color: $blue-dark;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  @include responsive() {
+    overflow-y: auto;
+  }
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+p {
+  font-size: 1.6rem;
+  color: $gray-3;
+  letter-spacing: 0.1rem;
+  line-height: 140%;
+}
