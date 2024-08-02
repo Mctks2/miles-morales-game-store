@@ -38,6 +38,12 @@ Abra o arquivo `index.html` no seu navegador para ver a página em funcionamento
   
 foi desenvolvido como parte do curso FrontPUSH 3.0 - Násser Yousef. Agradecimentos especiais aos mentores e à comunidade pelo apoio.
 
+## 🚧 Layout
+
+<a href="https://www.figma.com/design/uIUtAiVEW378W3pvVeUmNf/Spider-man-(Copy)?node-id=1-3&t=bEfyZXjzsmrLsLqo-0" target="__blank">
+<img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
+</a>
+
 ## 🎬 Imagens / Vídeos
 
 ![web-mobile-image](https://github.com/user-attachments/assets/0303982f-c8db-46b1-8f32-48fc90dee45f)
