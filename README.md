@@ -11,14 +11,12 @@ A página destaca o personagem principal com efeitos de parallax usando a biblio
   - **Comprar na PlayStation Store:** Um botão que leva o usuário diretamente para a PlayStation Store para adquirir o jogo.
   - **Assistir ao Teaser:** Um botão que permite ao usuário assistir ao teaser do jogo.
 
-Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 - HTML
-- CSS
+- CSS com SASS
 - JavaScript
-- SCSS
-- GSAP
-- jQuery Slim
-- Tilt.js
+- Biblioteca GSAP
+
 
 ## ▶️ Executando
 
