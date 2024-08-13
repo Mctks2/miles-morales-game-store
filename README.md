@@ -34,7 +34,7 @@ Abra o arquivo `index.html` no seu navegador para ver a página em funcionamento
 
 ## 🙏 Reconhecimentos 
   
-foi desenvolvido como parte do curso FrontPUSH 3.0 - Násser Yousef. Agradecimentos especiais aos mentores e à comunidade pelo apoio.
+Projeto Spiderman: Miles Morales Landing Page foi desenvolvido como parte do curso FrontPUSH 3.0 - Násser Yousef. Agradecimentos especiais aos mentores e à comunidade pelo apoio.
 
 ## 🚧 Layout
 
